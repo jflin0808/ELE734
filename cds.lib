@@ -1,0 +1,36 @@
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE ahdlLib $CDS_INST_DIR/tools/dfII/samples/artist/ahdlLib
+DEFINE rfExamples $CDS_INST_DIR/tools/dfII/samples/artist/rfExamples
+DEFINE passiveLib $CDS_INST_DIR/tools/dfII/samples/artist/passiveLib
+
+DEFINE cmosp18 $CMC_HOME/kits/cmosp18.5.2/dfII_lib/cmosp18
+DEFINE cmosp18_defin_techlib $CMC_HOME/kits/cmosp18.5.2/dfII_lib/cmosp18_defin_techlib
+DEFINE vst_n18_sc_tsm_c4 $CMC_HOME/kits/cmosp18.5.2/VSdir/dfII_lib/vst_n18_sc_tsm_c4
+DEFINE tpz973g $CMC_HOME/kits/cmosp18.5.2/VSdir/dfII_lib/tpz973g
+DEFINE CMCshare $CMC_HOME/kits/cmosp18.5.2/share/sharedfII_lib/CMCshare
+DEFINE virage_sram $CMC_HOME/kits/cmosp18.5.2/VGdir/SRAM/dfII_lib/virage_sram
+DEFINE CMCpcells $CMC_HOME/kits/cmosp18.5.2/dfII_lib/CMCpcells
+DEFINE CMCLayoutReference $CMC_HOME/kits/cmosp18.5.2/dfII_lib/CMCLayoutReference
+
+DEFINE artisan_sc_30 $CMC_HOME/kits/artisan18.3.0/FAB/artisan_tsmc18
+DEFINE artisan_io_30 $CMC_HOME/kits/artisan18.3.0/FAB/artisan_tpz973g
+DEFINE package $CMC_HOME/kits/package.2.1/package
+
+ 
+#EXAMPLE LIBRARIES
+DEFINE US_10ths $CDS_HOME/tools/dfII/samples/cdslib/sheets/US_10ths
+DEFINE rfLib $CDS_HOME/tools/dfII/samples/artist/rfLib
+DEFINE pllMMLib $CDS_HOME/tools/dfII/samples/artist/pllMMLib
+DEFINE pllLib $CDS_HOME/tools/dfII/samples/artist/pllLib
+DEFINE bmslib $CDS_HOME/tools/dfII/samples/artist/bmslib
+DEFINE aExamples $CDS_HOME/tools/dfII/samples/artist/aExamples
+DEFINE functional $CDS_HOME/tools/dfII/etc/cdslib/artist/functional
+DEFINE adsLib $XPEDION/aa/adsLib
+DEFINE goldenGateLib $XPEDION/aa/goldenGateLib
+DEFINE lab1 /home/student1/jflin/ele734/lab1
+DEFINE lab2 /home/student1/jflin/ele734/lab2
+DEFINE lab3 /home/student1/jflin/ele734/lab3
+DEFINE avTech /CMC/tools/cadence/ASSURA04.14.119-5141_lnx86/tools/assura/etc/avtech/avTech
+DEFINE lab4 /home/student1/jflin/ele734/lab4

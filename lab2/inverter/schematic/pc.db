@@ -1,0 +1,14 @@
+#
+cmosp18 pfet spectre
+M1
+#
+cmosp18 nfet spectre
+M0
+#ISCELL
+basic ipin symbol
+PIN0
+PIN2
+#ISCELL
+basic opin symbol
+PIN3
+PIN1

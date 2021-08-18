@@ -1,0 +1,11 @@
+#ISCELL
+cmosp18 M1_POLY1 symbolic
+I1
+I2
+#ISCELL
+cmosp18 metal1_T symbolic
+I6
+I7
+I5
+I4
+I3

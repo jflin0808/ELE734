@@ -1,0 +1,5 @@
+? Terminal B's type in the schematic: input, in the layout: inputOutput
+T -1  Cin /Cin
+? Terminal Cin in the schematic is not present in the layout.
+? Terminal GND's type in the schematic: inputOutput, in the layout: output
+? Terminal VDD's type in the schematic: inputOutput, in the layout: input

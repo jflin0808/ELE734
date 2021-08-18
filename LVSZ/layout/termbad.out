@@ -1,0 +1,7 @@
+T /+13 G /C
+? Terminal "G" on device /+13 should be connected to /12 instead of /C
+? Terminal B's type in the layout: inputOutput, in the schematic: input
+T -1  C /C
+? Terminal C in the layout is not present in the schematic.
+? Terminal GND's type in the layout: output, in the schematic: inputOutput
+? Terminal VDD's type in the layout: input, in the schematic: inputOutput

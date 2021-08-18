@@ -1,0 +1,19 @@
+#
+analogLib vdc spectre
+V1
+#
+analogLib vpulse spectre
+V0
+#
+analogLib cap spectre
+C0
+#ISCELL
+basic GND symbol
+I5
+I4
+I3
+I2
+#ISCELL
+basic VDD symbol
+I7
+I6

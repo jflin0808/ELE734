@@ -1,0 +1,26 @@
+#
+lab3 nand2 symbol
+Hi-Skewed
+Un-Skewed
+I10
+#
+analogLib cap spectre
+C3
+C2
+C0
+#
+analogLib vdc spectre
+V0
+#
+analogLib vpulse spectre
+B_IN
+A_IN
+#ISCELL
+analogLib gnd symbol
+I7
+I6
+I9
+I8
+I4
+I3
+I1

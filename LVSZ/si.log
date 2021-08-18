@@ -1,0 +1,77 @@
+
+Running simulation in directory: "/home/student1/jflin/ele734/LVSZ".
+
+
+
+Begin netlist:    Nov 29 10:02:42 2019
+	view name list	= ("auLvs" "extracted" "schematic")
+	stop name list	= ("auLvs")
+	library name	= "lab4"
+	cell name	= "Full_Adder"
+	view name	= "extracted"
+	globals lib	= "basic"
+Running Artist Flat Netlisting ...
+End netlist:    Nov 29 10:02:42 2019
+
+Moving original netlist to extNetlist
+Removing parasitic components from netlist
+	presistors removed:  0
+	pcapacitors removed: 0
+	pinductors removed:  0
+	pdiodes removed:     0
+	trans lines removed: 0
+	23 nodes merged into 23 nodes
+
+
+Begin netlist:    Nov 29 10:02:42 2019
+	view name list	= ("auLvs" "schematic")
+	stop name list	= ("auLvs")
+	library name	= "lab4"
+	cell name	= "Full_Adder"
+	view name	= "schematic"
+	globals lib	= "basic"
+Running Artist Flat Netlisting ...
+End netlist:    Nov 29 10:02:42 2019
+
+Moving original netlist to extNetlist
+Removing parasitic components from netlist
+	presistors removed:  0
+	pcapacitors removed: 0
+	pinductors removed:  0
+	pdiodes removed:     0
+	trans lines removed: 0
+	63 nodes merged into 63 nodes
+
+Running netlist comparison program:  LVS
+Begin comparison:    Nov 29 10:02:42 2019
+@(#)$CDS: LVS.exe version 5.1.0 10/28/2008 10:20 (cicln03) $
+
+1 net-list ambiguity was resolved by random selection.
+
+The net-lists failed to match.
+
+			     layout  schematic
+				instances
+	un-matched		3	3
+	rewired			1	0
+	size errors		33	33
+	pruned			0	0
+	active			36	36
+	total			36	36
+
+				  nets
+	un-matched		2	2
+	merged			0	0
+	pruned			0	0
+	active			23	23
+	total			23	23
+
+				terminals
+	un-matched		1	1
+	matched but
+	different type		3	3
+	total			7	7
+End comparison:      Nov 29 10:02:43 2019
+
+
+Comparison program completed successfully.

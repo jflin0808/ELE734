@@ -1,0 +1,104 @@
+t 0 VDD input
+t 14 Sum output
+t 12 GND output
+t 21 Cout output
+t 6 C input
+t 22 B inputOutput
+t 20 A input
+n 0 /VDD
+n 1 /18
+n 2 /15
+n 3 /11
+n 4 /21
+n 5 /17
+n 6 /C
+n 7 /23
+n 8 /19
+n 9 /22
+n 10 /20
+n 11 /14
+n 12 /GND
+n 13 /9
+n 14 /Sum
+n 15 /13
+n 16 /10
+n 17 /12
+n 18 /16
+n 19 /8
+n 20 /A
+n 21 /Cout
+n 22 /B
+; pfet Instance /+35 = auLvs device Q0
+d pfet D G S B (p D S)
+i 0 pfet 0 15 14 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+34 = auLvs device Q1
+i 1 pfet 14 11 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+33 = auLvs device Q2
+i 2 pfet 0 17 21 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+32 = auLvs device Q3
+i 3 pfet 21 19 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+31 = auLvs device Q4
+i 4 pfet 0 6 11 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+30 = auLvs device Q5
+i 5 pfet 11 6 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+29 = auLvs device Q6
+i 6 pfet 0 3 15 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+28 = auLvs device Q7
+i 7 pfet 15 17 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+27 = auLvs device Q8
+i 8 pfet 0 3 17 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+26 = auLvs device Q9
+i 9 pfet 17 6 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+25 = auLvs device Q10
+i 10 pfet 0 13 3 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+24 = auLvs device Q11
+i 11 pfet 3 16 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+23 = auLvs device Q12
+i 12 pfet 0 19 16 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+22 = auLvs device Q13
+i 13 pfet 16 22 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+21 = auLvs device Q14
+i 14 pfet 0 20 13 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+20 = auLvs device Q15
+i 15 pfet 13 19 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+19 = auLvs device Q16
+i 16 pfet 0 20 19 0 " m 1.0 l 300e-9 w 4e-6 "
+; pfet Instance /+18 = auLvs device Q17
+i 17 pfet 19 22 0 0 " m 1.0 l 300e-9 w 4e-6 "
+; nfet Instance /+17 = auLvs device Q18
+d nfet D G S B (p D S)
+i 18 nfet 14 15 7 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+16 = auLvs device Q19
+i 19 nfet 7 11 12 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+15 = auLvs device Q20
+i 20 nfet 21 17 9 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+14 = auLvs device Q21
+i 21 nfet 9 19 12 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+13 = auLvs device Q22
+i 22 nfet 11 6 4 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+12 = auLvs device Q23
+i 23 nfet 4 6 12 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+11 = auLvs device Q24
+i 24 nfet 15 3 10 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+10 = auLvs device Q25
+i 25 nfet 10 17 12 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+9 = auLvs device Q26
+i 26 nfet 17 3 8 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+8 = auLvs device Q27
+i 27 nfet 8 6 12 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+7 = auLvs device Q28
+i 28 nfet 3 13 1 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+6 = auLvs device Q29
+i 29 nfet 1 16 12 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+5 = auLvs device Q30
+i 30 nfet 16 19 5 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+4 = auLvs device Q31
+i 31 nfet 5 22 12 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+3 = auLvs device Q32
+i 32 nfet 13 20 18 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+2 = auLvs device Q33
+i 33 nfet 18 19 12 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+1 = auLvs device Q34
+i 34 nfet 19 20 2 12 " m 1.0 l 300e-9 w 2e-6 "
+; nfet Instance /+0 = auLvs device Q35
+i 35 nfet 2 22 12 12 " m 1.0 l 300e-9 w 2e-6 "
